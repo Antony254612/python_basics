@@ -1,6 +1,6 @@
 .venv/
 .env
-.secrets/mpesa
+.idea/
 #git ignore
 #git init
 #git add
