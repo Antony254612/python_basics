@@ -1,6 +1,9 @@
 .venv/
 .env
 .idea/
+.webm
+*mp3
+*.txt
 #git ignore
 #git init
 #git add
