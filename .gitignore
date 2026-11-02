@@ -4,6 +4,7 @@
 .webm
 *mp3
 *.txt
+!requirements.txt
 #git ignore
 #git init
 #git add
