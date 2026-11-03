@@ -15,3 +15,5 @@ c2=Circle(14)
 c3=Circle(15)
 
 print(c1.area())
+
+my_circles=[c1,c2,c3]
