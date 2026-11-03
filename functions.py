@@ -6,3 +6,6 @@ with open("temp.txt", "w") as file:
 with open("temp.txt", "r") as file:
     content=file.read()
     print(content)
+
+def my_function(a:int,b:float):
+   return a/b
