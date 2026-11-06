@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background:#fdf8f8;
+            font-family: "Commissioner", sans-serif;
+        }
+        form{
+            width:35%;
+            border:1px solid #5151b9;
+            padding:15px;
+            color:#090913;
+            margin:auto;
+            
+        }
+        .label{
+            display:block;
+        }
+        .input{
+            width:100%;
+            padding:10px;
+            margin-bottom:10px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Form elements will go here -->
+    <!-- Form inputs; text, password,email,phone,date,radio button,check box,select -->
+    <form action="">
+        <label class="label" for="fname">First Name:</label>
+        <input class="input" type="text" name="fname" id="fname" placeholder="Enter your first name" required>
+        <label class="label" for="lname">Last Name:</label>
+        <input class="input" type="text" name="lname" id="lname" placeholder="Enter your last name" required>
+        <label class="label" for="email">Email:</label>
+        <input class="input" type="email" name="email" id="email" placeholder="Enter your email" required>
+        <label class="label" for="password">Password:</label>
+        <input class="input" type="password" name="password" id="password" placeholder="Enter your password" required>
+        <label class="label" for="phone">Phone:</label>
+        <input class="input" type="tel" name="phone" id="phone" placeholder="Enter your phone number">
+        <label class="label" for="dob">Date of Birth:</label>
+        <input class="input" type="date" name="date" id="dob">
+        <label for="gender">Gender:</label><br>
+        <label for="male">Male:</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="female">Female:</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label class="label" for="county">County:</label>
+        <select name="county" id="county">
+            <option value="nairobi">Nairobi</option>
+            <option value="mombasa">Mombasa</option>
+            <option value="kisumu">Kisumu</option>
+            <option value="nakuru">Nakuru</option>
+        </select>
+        <label class="label" for="hobbies">Hobbies:</label>
+        <input class="input" type="checkbox" name="hobbies" id="hobbies" value="reading">
+        <label class="label" for="hobbies">Reading</label>
+        <input class="input" type="checkbox" name="hobbies" id="hobbies" value="swimming">
+        <label class="label" for="hobbies">Swimming</label>
+        <button class="input">Submit</button>
+    </form>
+</body>
+
+</html>

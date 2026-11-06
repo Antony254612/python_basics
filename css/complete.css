@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root{
+    --brand-green:#159957;
+    --brand-dark:#1f2d3d;
+    --soft-bg:#f4f8f7;
+}
+body{
+    color: var(--brand-dark);
+    font-family: Lora ital;
+}
+.brand{
+    color:var(--brand-green);
+    font-size: 1.45rem;
+}
+#dark-title{
+    color:var(--brand-dark)
+}
+.brand:hover{
+    color:#0a8547;
+}
+.nav-link{
+    color:#536171;
+}
+.nav-link:hover, .nav-link.active{
+    color:var(--brand-green) !important;
+}
+.btn.success{
+    background-color:var(--brand-green) !important;
+    border-color: var(--brand-green) !important;
+    transition: all 3s !important;
+}
+.btn.success:hover{
+    background-color:#0f703f !important;
+}
+.hero{
+    padding:3.5rem;
+    color:linear-gradient(120deg, #f7faf9, #edf3f1);
+}
+.top-title{
+    color:var(--brand-green);
+    font-size: 0.85rem;
+    font-weight: 700;
+
+}
+.hero h1{
+    line-height: 1.08;
+}
+.section-heading h2{
+    margin-bottom: 0.4rem;
+}
+.card{
+    border-color: #e5e9ec;
+    transition: transform 0.2s ease,  box-shadow 0.2s ease;
+}
+.about-section{
+    color:var(--brand-green);
+    font-size: 1.5rem;
+}
+.about-section p{
+    max-width: 540px;
+    margin:auto;
+}
+.footer{
+    background-color: #2e3d4e;
+    color: white;
+}
+.footer a{
+    color:white;
+    text-decoration:none;
+}
+.footer a:hover{
+    color:var(--brand-green);
+    text-decoration: underline;
+}
+.copyright{
+    background-color: #1f2d3d;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+       *{
+        padding:0;
+        margin:0;
+       }
+        body {
+            font-family: 'Commissioner', sans-serif;
+            color:white;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            background: #141414;
+            border-bottom: 1px solid #4b93db;
+        }
+        .nav-items{
+            width: 70%;
+            background: #60a9f3;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav-items ul{
+            display: flex;
+            list-style: none;
+        }
+        .nav-items li{
+            margin-right: 20px;
+            margin-left: 20px;
+            padding: 20px;
+        }
+        .nav-items a{
+            text-decoration: none;
+            color:white;
+            text-transform: capitalize;
+        }
+        .nav-items a:hover{
+            color: #dbd8d8;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-items">
+            <img src="images/icons8-ai-48.png" alt="AI Icon">
+            <ul>
+                <li><a>Home</a></li>
+                <li><a>About us</a></li>
+                <li><a>Team</a></li>
+                <li><a>Pricing</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</body>
+
+</html>
