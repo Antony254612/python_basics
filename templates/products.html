@@ -1,0 +1,11 @@
+{% extends 'master.html' %}
+{% block title %}Products{% endblock %}
+{% block content %}
+<div class="container-fluid">
+        <h2>Name is {{ name }}</h2>
+
+        {% for sub in subjects %}
+        <p>{{ sub }}</p>
+        {% endfor %}
+</div>
+{% endblock %}
