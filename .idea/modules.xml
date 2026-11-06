@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/django_vertex.iml" filepath="$PROJECT_DIR$/.idea/django_vertex.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/Python_intro.iml" filepath="$PROJECT_DIR$/.idea/Python_intro.iml" />
+>>>>>>> af1aabe1f824919f0347c547f7113a4fdc60507f
     </modules>
   </component>
 </project>

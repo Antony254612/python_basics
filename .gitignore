@@ -1,0 +1,13 @@
+.venv/
+.env
+.idea/
+.webm
+*mp3
+*.txt
+!requirements.txt
+#git ignore
+#git init
+#git add
+#git commit
+#git remote add origin
+#git push main

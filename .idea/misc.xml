@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" project-jdk-name="~\PycharmProjects\django_vertex\.venv" project-jdk-type="Python SDK" />
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="~\PycharmProjects\Python_intro\.venv" project-jdk-type="Python SDK" />
+>>>>>>> af1aabe1f824919f0347c547f7113a4fdc60507f
 </project>
